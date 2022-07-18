@@ -2,7 +2,7 @@
   background-image: url("images/dd3-min.png");
 }
 .img222 {
-  background-image: url("images/dd3-min.png");  
+  background-image: url("images/dd3-min.png");
 }
  .u-section-1 {
   background-position: 50% 0%;
@@ -373,4 +373,25 @@
     padding-left: 20px;
     padding-right: 20px;
   }
+}
+.contact-icons-details {
+  margin-bottom: 10px;
+}
+.contact-icons-details strong{
+  margin-right: 5px;
+  order: 2;
+}
+.contact-icons-details span{
+  /*order: 3;*/
+}
+.contact-icons-details img{
+  max-width: 30px;
+  padding-right: 3px;
+  order: 1;
+}
+.contact-icons-details a{
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: start;
 }
